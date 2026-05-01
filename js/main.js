@@ -4562,18 +4562,18 @@ else if(buildings["barracks"]>0)
 		buildstatus["barracks"]=0;
 		$(".build_barracks").addClass("off")
 }
-production["wood"]+=buildings["lumbermill"]/20;
-production["mineral"]+=buildings["mine"]/20;
-production["water"]+=buildings["fountain"]/10;
-production["gold"]+=buildings["casino"]/1000;
-production["knowledge"]+=buildings["scienceoutpost"]/200;
-production["gold"]+=buildings["tradeoutpost"]/400;
-production["clay"]+=buildings["quarry"]*0.05;
+production["wood"]+=buildings["lumbermill"]/2;
+production["mineral"]+=buildings["mine"]/2;
+production["water"]+=buildings["fountain"]/1;
+production["gold"]+=buildings["casino"]/100;
+production["knowledge"]+=buildings["scienceoutpost"]/20;
+production["gold"]+=buildings["tradeoutpost"]/40;
+production["clay"]+=buildings["quarry"]*0.5;
 if(technologies["safestorage"]==1){
-production["nickel"]+=buildings["quarry"]/4000;
+production["nickel"]+=buildings["quarry"]/400;
 }
 if(technologies["mineralcoal"]==1){
-production["coal"]+=buildings["quarry"]*0.005;
+production["coal"]+=buildings["quarry"]*0.05;
 }
 craft["token"]+=(buildings["share"]/40)*(bonus["auto"]+1);
 
