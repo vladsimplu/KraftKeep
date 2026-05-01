@@ -2330,7 +2330,7 @@ var buildingdata = {
   },
   warehouse: {
     cost: {wood: 20, mineral: 10},
-    scale: 1.6,
+    scale: 1.4,
     max: {wood: 2000, mineral: 2000, food: 1000, copper: 50, gold: 10, iron: 50, tin: 40, coal: 50, steel: 30},
     unlock: [".build_fountain", ".build_pasture"]
   },
@@ -2346,13 +2346,13 @@ var buildingdata = {
   },
   house: {
     cost: {wood: 20, mineral: 50, food: 15},
-    scale: 1.8,
+    scale: 1.6,
     max: {population: 3},
     unlock: [".build_library", ".population", ".hire_woodcutter", ".hire_smelter", ".hire_farmer", "#jobspane"]
   },
   library: {
     cost: {wood: 300, mineral: 100},
-    scale: 1.9,
+    scale: 1.6,
     max: {knowledge: 100},
     tieredUnlock: {
       1: [".tech_coppertools", ".tech_pickaxe", "#technologiespane"],
@@ -2367,7 +2367,7 @@ var buildingdata = {
   },
   banner: {
     cost: {wood: 100, copper: 1},
-    scale: 1.7,
+    scale: 1.4,
     max: {morale: 1}
   },
   foundry: {
@@ -2377,46 +2377,46 @@ var buildingdata = {
   },
   barn: {
     cost: {block: 5},
-    scale: 1.4,
+    scale: 1.2,
     max: {wood: 5000, mineral: 5000}
   },
   casino: {
     cost: {block: 3, gold: 1},
-    scale: 1.6,
+    scale: 1.4,
     max: {gold: 1, bet: 0.5},
     unlock: ["#casinopane"]
   },
   market: {
     cost: {wood: 500, coin: 1},
-    scale: 1.6,
+    scale: 1.4,
     bonus: {trade: 0.05},
     unlock: ["#marketpane"]
   },
   kiln: {
     cost: {block: 15, mineral: 2000},
-    scale: 1.5,
+    scale: 1.3,
     unlock: [".toggle_kiln"]
   },
   statue: {
     cost: {bronze: 1},
-    scale: 1.5,
+    scale: 1.3,
     max: {morale: 2},
     bonus: {morale: 0.05}
   },
   towncenter: {
     cost: {block: 20, structure: 5, coin: 3},
-    scale: 1.25,
+    scale: 1.1,
     max: {wood: 15000, mineral: 10000, food: 5000, copper: 100, gold: 20, iron: 100, tin: 100, coal: 50, steel: 50, population: 5}
   },
   workbench: {
     cost: {steel: 2},
-    scale: 1.4,
+    scale: 1.2,
     bonus: {craft: 0.08},
     unlock: [".toggle_workbench", ".craftamount"]
   },
   castle: {
     cost: {block: 50, gold: 5},
-    scale: 1.6,
+    scale: 1.4,
     bonus: {title: 1},
     unlock: [".leader_sucellus", ".leader_eredal", ".leader_khrysos", ".leader_elisia",
       ".leader_xochiquetzal", ".leader_warmuk", ".titles", "#leaderpane"]
