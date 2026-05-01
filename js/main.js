@@ -518,9 +518,9 @@ function expedition(){
 	power+=people["musketeer"]*75
 
 
-	foodcost=power*2
+	foodcost=power*1
 	watercost=power
-	moralecost=power/5
+	moralecost=power/50
 	coalcost=0
 	coalcost+=people["lighttank"]*50
 	power+=people["lighttank"]*500
@@ -2331,7 +2331,7 @@ var buildingdata = {
   warehouse: {
     cost: {wood: 20, mineral: 10},
     scale: 1.6,
-    max: {wood: 200, mineral: 200, food: 100, copper: 5, gold: 1, iron: 5, tin: 4, coal: 5, steel: 3},
+    max: {wood: 2000, mineral: 2000, food: 1000, copper: 50, gold: 10, iron: 50, tin: 40, coal: 50, steel: 30},
     unlock: [".build_fountain", ".build_pasture"]
   },
   fountain: {
@@ -2406,7 +2406,7 @@ var buildingdata = {
   towncenter: {
     cost: {block: 20, structure: 5, coin: 3},
     scale: 1.25,
-    max: {wood: 1500, mineral: 1000, food: 500, copper: 10, gold: 2, iron: 10, tin: 10, coal: 5, steel: 5, population: 5}
+    max: {wood: 15000, mineral: 10000, food: 5000, copper: 100, gold: 20, iron: 100, tin: 100, coal: 50, steel: 50, population: 5}
   },
   workbench: {
     cost: {steel: 2},
