@@ -2378,7 +2378,7 @@ var buildingdata = {
   barn: {
     cost: {block: 5},
     scale: 1.4,
-    max: {wood: 500, mineral: 500}
+    max: {wood: 5000, mineral: 5000}
   },
   casino: {
     cost: {block: 3, gold: 1},
